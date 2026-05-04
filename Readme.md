@@ -1,13 +1,5 @@
 # 🤖 Robot Navigation Using Finite Automata
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-</div>
-
 <img src="https://64.media.tumblr.com/8cbc44eca8eb330bb5ad961efac447ac/tumblr_p0ssdhxMte1wkvr3po1_400.gif" width=100% />
 
 

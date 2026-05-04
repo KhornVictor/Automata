@@ -10,10 +10,8 @@ A robot navigation project that validates and simulates command sequences using 
 - Model the language with a Finite Automaton and validate sequences
 - Simulate robot movement visually after validation
 
-## 👥 Member
+## 👥 Member Team12
 
-| -------------------------------------: |
-| Team 12 - 7 9 13                       |
 | -------------------------------------: |
 | Name              |                 Id |
 | ----------------- | -----------------: |

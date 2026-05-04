@@ -75,7 +75,7 @@ A robot navigation project that validates and simulates command sequences using 
 
 ## 🧰 Technology Stack
 
-- Frontend: React + Tailwind CSS
+- Frontend: HTML + CSS + Tailwind CSS
 - Logic: JavaScript (ES6+) for FA and simulation
 - Visualization: CSS Grid for the board
 
@@ -89,14 +89,14 @@ A robot navigation project that validates and simulates command sequences using 
 ```
 src/
 ├── components/
-│   ├── Grid.jsx        # 8x8 board
-│   ├── Robot.jsx       # Robot UI
-│   └── Controls.jsx    # Input & controls
+│   ├── Grid.html        # 8x8 board
+│   ├── Robot.html       # Robot UI
+│   └── Controls.html    # Input & controls
 ├── logic/
-│   └── automata.js     # FA validation logic
+│   └── automata.js      # FA validation logic
 ├── utils/
-│   └── simulator.js    # Robot movement logic
-└── App.jsx              # Main app
+│   └── simulator.js     # Robot movement logic
+└── index.html           # Main app
 ```
 
 ## 🚀 Example Command Sequence
@@ -110,11 +110,14 @@ START F L F P F D C F L F P F D STOP
 Install dependencies and run the dev server:
 
 ```powershell
-npm install
-npm run dev
+npx serve 
+
+or
+
+open live sever
 ```
 
-Open http://localhost:3000 in your browser.
+Open http://localhost:xxxx in your browser.
 
 ## 📦 Deliverables
 

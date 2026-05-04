@@ -107,16 +107,27 @@ A robot navigation project that validates and simulates command sequences using 
 ├── assets
 │   └── favicon.ico
 ├── components
-│   ├── control.js
-│   ├── grid.js
-│   └── robot.js
+│   ├── control.js					# Handles user interaction and input.
+│   ├── grid.js						# Responsible for rendering the 8×8 grid.
+│   └── robot.js					# Handles the visual representation of the robot.
 ├── logic
-│   └── automata.js
+│   └── automata.js					# This is the core of the project
 ├── utils
-│   └── simulator.js                
+│   └── simulator.js      			# Handles the robot movement logic.          
 ├── Readme.md
-├── index.html                      #main file
+├── index.html                      # main file
 └── instruction.pdf    
+```
+
+🧩 Architecture Overview
+```
+User Input → control.js
+            ↓
+       automata.js (Validation)
+            ↓
+       simulator.js (Execution)
+            ↓
+   grid.js + robot.js (Visualization)
 ```
 
 ## 🚀 Example Command Sequence

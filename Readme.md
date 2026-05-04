@@ -12,14 +12,18 @@ A robot navigation project that validates and simulates command sequences using 
 
 ## 👥 Member Team12
 
-| Name              |                 Id |
-| ----------------- | -----------------: |
-| KHORN Victor      |          e20230078 |
-| PEN Bunnaka       |          e20230757 |
-| THEA Rosa         |          e20230854 |
-| PAK Siphaneth     |          e20231021 |
+| Name          |        Id |
+| ------------- | --------: |
+| KHORN Victor  | e20230078 |
+| PEN Bunnaka   | e20230757 |
+| THEA Rosa     | e20230854 |
+| PAK Siphaneth | e20231021 |
 
-Task: https://trello.com/invite/b/69f83fdb64407b086d57fa0c/ATTI4bc0627b90858107a06cc462f37084fa5C1BB74C/automata
+<table>
+	<tr>
+		<td><strong>Task</strong><br /><a href="https://trello.com/invite/b/69f83fdb64407b086d57fa0c/ATTI4bc0627b90858107a06cc462f37084fa5C1BB74C/automata">Open Trello board</a></td>
+	</tr>
+</table>
 
 ## ⚙️ Robot Specifications
 
@@ -123,7 +127,7 @@ START F L F P F D C F L F P F D STOP
 Install dependencies and run the dev server:
 
 ```powershell
-npx serve 
+npx serve
 
 or
 

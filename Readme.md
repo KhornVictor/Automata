@@ -1,14 +1,14 @@
-# Robot Navigation Using Finite Automata
+# 🤖 Robot Navigation Using Finite Automata
 
 A robot navigation project that validates and simulates command sequences using a Finite Automaton (DFA or NFA). The robot runs on an 8×8 grid and must follow a formally defined command language whose constraints are enforced by the automaton.
 
-## Objectives
+## 🎯 Objectives
 
 - Define a formal command language for robot navigation
 - Model the language with a Finite Automaton and validate sequences
 - Simulate robot movement visually after validation
 
-## Robot Specifications
+## ⚙️ Robot Specifications
 
 | Property          |              Value |
 | ----------------- | -----------------: |
@@ -18,7 +18,7 @@ A robot navigation project that validates and simulates command sequences using 
 | Maximum energy    |            5 units |
 | Energy cost       | 1 per move or turn |
 
-## Command Language (Alphabet)
+## 🔤 Command Language (Alphabet)
 
 | Command | Description     |
 | ------- | --------------- |
@@ -32,48 +32,48 @@ A robot navigation project that validates and simulates command sequences using 
 | D       | Drop object     |
 | C       | Recharge energy |
 
-## Rules & Constraints
+## 📏 Rules & Constraints
 
-Structure
+### 🧱 Structure
 
 - Sequences must start with `START` and end with `STOP`.
 - Must include at least one movement command (`F` or `B`).
 
-Tasks
+### 🛠️ Tasks
 
 - Must complete at least two pick–drop tasks (`P` then `D`).
 - Cannot `P` twice without an intervening `D`.
 
-Energy
+### 🔋 Energy
 
 - Max energy is 5; every move or turn consumes 1 energy.
 - Cannot move or turn if energy = 0. `C` (recharge) is allowed only when energy = 0.
 
-Movement constraints
+### 🚦 Movement constraints
 
 - No immediate reverse (no `F` → `B` or `B` → `F`).
 - No consecutive same turns (`L L` or `R R` forbidden).
 - Difference between number of `L` and `R` must be ≤ 2.
 
-Loop rules
+### 🔁 Loop rules
 
 - Must include at least one counter-clockwise loop: `(F L) × 4`.
 - Must not include a clockwise loop: `(F R) × 4`.
 
 > All rules above MUST be enforced by the Finite Automaton (validation), not only by the simulator.
 
-## Finite Automaton (FA) Design
+## 🧠 Finite Automaton (FA) Design
 
 - Responsibilities: accept/reject sequences, track energy, pick/drop state, movement history, and detect prohibited loops or patterns.
 - Implement as a DFA or NFA with extended state tracking (e.g., energy as part of the automaton configuration or via augmentation).
 
-## Simulation Features
+## 🖥️ Simulation Features
 
 - Validate input using the FA before running the simulation.
 - Step-by-step execution showing robot position, facing direction, energy, and current action.
 - Visual board (8×8) with an animated robot (optional enhancements below).
 
-## Technology Stack
+## 🧰 Technology Stack
 
 - Frontend: React + Tailwind CSS
 - Logic: JavaScript (ES6+) for FA and simulation
@@ -84,7 +84,7 @@ Loop rules
 - Framer Motion for smoother animations
 - XState for advanced state-machine modeling
 
-## Project Structure
+## 🏗️ Project Structure
 
 ```
 src/
@@ -99,13 +99,13 @@ src/
 └── App.jsx              # Main app
 ```
 
-## Example Command Sequence
+## 🚀 Example Command Sequence
 
 ```
 START F L F P F D C F L F P F D STOP
 ```
 
-## Getting Started
+## ▶️ Getting Started
 
 Install dependencies and run the dev server:
 
@@ -116,13 +116,13 @@ npm run dev
 
 Open http://localhost:3000 in your browser.
 
-## Deliverables
+## 📦 Deliverables
 
 - Report: command language, FA design, logic explanation
 - Source code: FA validation and robot simulator
 - Presentation / demo
 
-## Tips
+## 💡 Tips
 
 - Implement FA validation first and cover edge cases before integrating the UI.
 - Keep simulation separated from validation so the FA remains the single source of truth for correctness.

@@ -104,16 +104,19 @@ A robot navigation project that validates and simulates command sequences using 
 ## 🏗️ Project Structure
 
 ```
-src/
-├── components/
-│   ├── Grid.html        # 8x8 board
-│   ├── Robot.html       # Robot UI
-│   └── Controls.html    # Input & controls
-├── logic/
-│   └── automata.js      # FA validation logic
-├── utils/
-│   └── simulator.js     # Robot movement logic
-└── index.html           # Main app
+├── assets
+│   └── favicon.ico
+├── components
+│   ├── control.js
+│   ├── grid.js
+│   └── robot.js
+├── logic
+│   └── automata.js
+├── utils
+│   └── simulator.js                
+├── Readme.md
+├── index.html                      #main file
+└── instruction.pdf    
 ```
 
 ## 🚀 Example Command Sequence

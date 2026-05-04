@@ -19,6 +19,8 @@ A robot navigation project that validates and simulates command sequences using 
 | THEA Rosa         |          e20230854 |
 | PAK Siphaneth     |          e20231021 |
 
+Task: https://trello.com/invite/b/69f83fdb64407b086d57fa0c/ATTI4bc0627b90858107a06cc462f37084fa5C1BB74C/automata
+
 ## ⚙️ Robot Specifications
 
 | Property          |              Value |

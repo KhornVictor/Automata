@@ -10,6 +10,19 @@ A robot navigation project that validates and simulates command sequences using 
 - Model the language with a Finite Automaton and validate sequences
 - Simulate robot movement visually after validation
 
+## 👥 Member
+
+| -------------------------------------: |
+| Team 12 - 7 9 13                       |
+| -------------------------------------: |
+| Name              |                 Id |
+| ----------------- | -----------------: |
+| Grid size         |              8 × 8 |
+| Start position    |             (0, 0) |
+| Initial direction |              North |
+| Maximum energy    |            5 units |
+| Energy cost       | 1 per move or turn |
+
 ## ⚙️ Robot Specifications
 
 | Property          |              Value |

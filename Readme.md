@@ -1,9 +1,5 @@
 # 🤖 Robot Navigation Using Finite Automata
 
-<img src="https://64.media.tumblr.com/8cbc44eca8eb330bb5ad961efac447ac/tumblr_p0ssdhxMte1wkvr3po1_400.gif" width=100% />
-
-##
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
   <img width="12" />
@@ -12,7 +8,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
 </div>
 
-##
+<img src="https://64.media.tumblr.com/8cbc44eca8eb330bb5ad961efac447ac/tumblr_p0ssdhxMte1wkvr3po1_400.gif" width=100% />
 
 A robot navigation project that validates and simulates command sequences using a Finite Automaton (DFA or NFA). The robot runs on an 8×8 grid and must follow a formally defined command language whose constraints are enforced by the automaton.
 

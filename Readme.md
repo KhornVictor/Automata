@@ -120,15 +120,8 @@ A robot navigation project that validates and simulates command sequences using 
 ```
 
 🧩 Architecture Overview
-```
-User Input → control.js
-            ↓
-       automata.js (Validation)
-            ↓
-       simulator.js (Execution)
-            ↓
-   grid.js + robot.js (Visualization)
-```
+
+<img src="assets/architecture.png"/>
 
 ## 🚀 Example Command Sequence
 

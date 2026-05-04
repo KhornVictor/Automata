@@ -14,11 +14,10 @@ A robot navigation project that validates and simulates command sequences using 
 
 | Name              |                 Id |
 | ----------------- | -----------------: |
-| Grid size         |              8 × 8 |
-| Start position    |             (0, 0) |
-| Initial direction |              North |
-| Maximum energy    |            5 units |
-| Energy cost       | 1 per move or turn |
+| KHORN Victor      |          e20230078 |
+| PEN Bunnaka       |          e20230757 |
+| THEA Rosa         |          e20230854 |
+| PAK Siphaneth     |          e20231021 |
 
 ## ⚙️ Robot Specifications
 

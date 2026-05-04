@@ -12,7 +12,6 @@ A robot navigation project that validates and simulates command sequences using 
 
 ## 👥 Member Team12
 
-| ------------------|------------------: |
 | Name              |                 Id |
 | ----------------- | -----------------: |
 | Grid size         |              8 × 8 |
